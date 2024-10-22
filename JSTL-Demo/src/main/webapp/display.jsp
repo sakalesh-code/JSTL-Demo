@@ -11,6 +11,11 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<form action="getServlet" method="get">
+		id: <input type="text" name="id"><br> 
+		name: <input type="text" name="name"><br> 
+		<input type="submit">
+	</form>
 	<c:out value="${label}"></c:out>
 	<br> rollNo : ${stud.rollNo}
 	<br> students : ${studList}
